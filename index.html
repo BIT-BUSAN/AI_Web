@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +19,28 @@
     <link rel="stylesheet" href="assets/css/templatemo-plot-listing.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+
+    <script>
+      // AI 코드 작성
+      function searchImages(keyword, numImages) {
+        // 구글 이미지 검색 코드
+        // ...
+      }
+  
+      // 검색 버튼 클릭 시 실행되는 함수
+      function performImageSearch() {
+        var keyword = document.getElementById("keyword").value;
+        var numImages = parseInt(document.getElementById("numImages").value);
+  
+        // 이미지 검색 실행
+        var imageUrls = searchImages(keyword, numImages);
+  
+        // 이미지 URL을 새 창으로 열기
+        imageUrls.forEach(function(url) {
+          window.open(url, "_blank");
+        });
+      }
+    </script>
 
   </head>
 
